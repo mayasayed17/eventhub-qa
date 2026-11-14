@@ -1,0 +1,15 @@
+# Copy to local.properties (git-ignored) and fill in.
+# Every key can also come from an environment variable: EVENTHUB_ + key upper-cased, dots -> underscores.
+#   users.default.email  ->  EVENTHUB_USERS_DEFAULT_EMAIL
+
+users.default.email=
+users.default.password=
+
+# Optional second account. Enables the cross-user authorization test; it is skipped when absent.
+users.secondary.email=
+users.secondary.password=
+
+# Handy local overrides
+# ui.headless=false
+# ui.slowMoMs=250
+# api.logging=true
